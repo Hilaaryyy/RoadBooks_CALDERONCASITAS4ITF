@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">ROAD BOOKS</string>
+    <string name="tagline">A guide for everyday safety.</string>
+    <string name="review">Review</string>
+    <string name="quiz">Take a Quiz</string>
+    <string name="grades">My Grades</string>
+    <string name="signs">Signs and Markings</string>
+    <string name="positions">Road Positions</string>
+    <string name="genknow">General Knowledge</string>
+    <string name="violations">Violations and Penalties</string>
+    <string name="parking">Parking</string>
+    <string name="emergencies">Emergencies</string>
+    <string name="handling">Handling and Driving</string>
+    <string name="random">Random</string>
+    <string name="emer_description">What to do during driving emergencies such as mechanical failures and accidents.</string>
+    <string name="emer_1">In case your vehicle breaks down on an expressway</string>
+    <string name="emer_2">In case an ambulance comes up behind you flashing red lights and or sounding its siren</string>
+    <string name="emer_3">What to do when the hood of your car lifts up and blocks your vision</string>
+    <string name="emer_4">Rear tire blows up</string>
+    <string name="emer_5">Front tire blows up</string>
+    <string name="emer_6">First duty of the driver in case of an accident</string>
+    <string name="emer_7">The duty of the uninjured driver in case of injuries caused by an accident</string>
+    <string name="emer_8">What to do when a vehicle is stalled or disabled</string>
+    <string name="emer_9">What to do when a vehicle starts to skid</string>
+    <string name="emerans_1">If your vehicle breaks down on an expressway you should open your trunk and hood, and hang something white on your car door handle if possible to indicate you need help. Call for assistance, turn on your hazard warning lights, and keep well away from the expressway.
+    </string>
+    <string name="emerans_2">Do all you can to allow it to pass. Pulling to the right gives the ambulance more room and slowing down shortens its time of exposure to danger (i.e. the time it takes to overtake you).</string>
+    <string name="emerans_3">Using the gap under the hood (if the window has not completely smashed) and your vision through the side window, brake gently and pull over to the right.</string>
+    <string name="emerans_4">The back end is likely to swing out first with the same side as the blowout. Expect it to sway from side to side.</string>
+    <string name="emerans_5">When the tire has a blowout it suddenly becomes much difficult for the wheel to rotate, and also it is a smaller radius so this makes the car pull into the direction of the blown out tire.</string>
+    <string name="emerans_6">There are cases where you should not pick-up an injured person yourself especially if you are unsure about the extent of the injury. An injured neck or back could get aggravated when mishandled. It is best to call an ambulance and let the paramedics pick them up and bring them to the nearest hospital.</string>
+    <string name="emerans_7">After a car crash the first thing that you must do is to check the condition of people involved in the accident, then call an ambulance or a physician if they need immediate medical attention.</string>
+    <string name="emerans_8">This is why you must always carry an EWD (Early Warning Device), so you can warn other road users regarding your stalled or disabled vehicle — protecting yourself and other road users.</string>
+    <string name="emerans_9">Never step hard on the brake during a skid. Instead, get your foot off the accelerator and brake pedals and steer gently in the direction you want the vehicle to go to.</string>
+</resources>
