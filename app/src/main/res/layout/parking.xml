@@ -16,7 +16,8 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/parking" />
+        app:srcCompat="@drawable/parking"
+        android:layout_alignParentLeft="true" />
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recylcerView"
@@ -39,7 +40,8 @@
         android:background="#6E6E6E"
         app:itemIconTint="@color/nav_item_color"
         app:itemTextColor="@color/nav_item_color"
-        app:menu="@menu/bottom_navigation">
+        app:menu="@menu/bottom_navigation"
+        android:layout_alignParentLeft="true">
 
     </android.support.design.widget.BottomNavigationView>
 </RelativeLayout>
