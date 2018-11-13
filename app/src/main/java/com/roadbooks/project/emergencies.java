@@ -24,7 +24,7 @@ import java.util.List;
 public class emergencies extends AppCompatActivity{
     //this is the JSON Data URL
     //make sure you are using the correct ip else it will not work
-    private static final String URL_PRODUCTS = "https://api.myjson.com/bins/n5nlu";
+    private static final String URL_PRODUCTS = "https://api.myjson.com/bins/1freo6";
 
     //a list to store all the products
     List<Product> productList;
