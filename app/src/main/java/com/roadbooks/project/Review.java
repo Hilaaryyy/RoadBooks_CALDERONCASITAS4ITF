@@ -52,7 +52,7 @@ public class Review extends AppCompatActivity{
             i = new Intent( Review.this, Violations.class);
             Review.this.startActivity(i);
         }
-        if(v.getId() == R.id.handling){
+        if(v.getId() == R.id.random){
             i = new Intent( Review.this, Handling.class);
             Review.this.startActivity(i);
         }

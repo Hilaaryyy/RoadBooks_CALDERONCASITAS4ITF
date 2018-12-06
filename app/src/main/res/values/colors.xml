@@ -10,4 +10,7 @@
     <color name="btnYellow">#F1CD13</color>
     <color name="transparent">#80ffffff</color>
     <color name="darkYellow">#FFFF00</color>
+    <color name="quizColor">#F1CD13</color>
+
+
 </resources>

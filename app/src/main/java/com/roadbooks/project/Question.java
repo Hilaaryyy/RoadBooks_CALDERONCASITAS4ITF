@@ -6,6 +6,7 @@ public class Question {
     private String option2;
     private String option3;
     private int answerNr;
+//    private String explain;
 
     public Question() {
     }
@@ -16,6 +17,7 @@ public class Question {
         this.option2 = option2;
         this.option3 = option3;
         this.answerNr = answerNr;
+//        this.explain = explain;
     }
 
     public String getQuestion() {
@@ -57,4 +59,12 @@ public class Question {
     public void setAnswerNr(int answerNr) {
         this.answerNr = answerNr;
     }
+
+//    public String getExplain() {
+//        return explain;
+//    }
+//
+//    public void setExplain(String explain) {
+//        this.explain = explain;
+//    }
 }

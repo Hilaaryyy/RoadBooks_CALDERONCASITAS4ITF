@@ -4,8 +4,12 @@ import android.content.Intent;
 import android.content.res.ColorStateList;
 import android.graphics.Color;
 import android.os.CountDownTimer;
+import android.support.annotation.NonNull;
+import android.support.design.widget.BottomNavigationView;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.RadioButton;
@@ -32,6 +36,7 @@ public class QuizActivity extends AppCompatActivity {
     private RadioButton rb3;
     private Button buttonConfirmNext;
 
+
     private ColorStateList textColorDefaultRb;
     private ColorStateList textColorDefaultCd;
 
@@ -51,7 +56,31 @@ public class QuizActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_quiz);
+        setContentView(R.layout.genknow_quiz);
+
+        BottomNavigationView bottomNav = findViewById(R.id.bottom_navigation);
+        Menu menu = bottomNav.getMenu();
+        MenuItem menuItem = menu.getItem(1);
+        menuItem.setChecked(true);
+        bottomNav.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
+                switch (menuItem.getItemId()) {
+                    case R.id.nav_assign:
+                        Intent intent1 = new Intent(QuizActivity.this, Review.class);
+                        QuizActivity.this.startActivity(intent1);
+                        break;
+                    case R.id.nav_quiz:
+                        break;
+                    case R.id.nav_grades:
+                        Intent intent2 = new Intent(QuizActivity.this, Grades.class);
+                        QuizActivity.this.startActivity(intent2);
+                        break;
+
+                }
+                return false;
+            }
+        });
 
         textViewQuestion = findViewById(R.id.text_view_question);
         textViewScore = findViewById(R.id.text_view_score);
@@ -87,11 +116,33 @@ public class QuizActivity extends AppCompatActivity {
                 }
             }
         });
+
+        rbGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(RadioGroup group, int checkedId) {
+                if (rb1.isChecked()) {
+                    rb1.setBackgroundColor(Color.parseColor("#F1CD13"));
+                    rb2.setBackgroundColor(Color.parseColor("#3b3b3b"));
+                    rb3.setBackgroundColor(Color.parseColor("#3b3b3b"));
+                }
+                if (rb2.isChecked()) {
+                    rb1.setBackgroundColor(Color.parseColor("#3b3b3b"));
+                    rb2.setBackgroundColor(Color.parseColor("#F1CD13"));
+                    rb3.setBackgroundColor(Color.parseColor("#3b3b3b"));
+                }
+                if (rb3.isChecked()) {
+                    rb1.setBackgroundColor(Color.parseColor("#3b3b3b"));
+                    rb2.setBackgroundColor(Color.parseColor("#3b3b3b"));
+                    rb3.setBackgroundColor(Color.parseColor("#F1CD13"));
+                }
+
+            }
+        });
     }
     private void showNextQuestion(){
-        rb1.setTextColor(textColorDefaultRb);
-        rb2.setTextColor(textColorDefaultRb);
-        rb3.setTextColor(textColorDefaultRb);
+        rb1.setBackgroundColor(Color.parseColor("#3b3b3b"));
+        rb2.setBackgroundColor(Color.parseColor("#3b3b3b"));
+        rb3.setBackgroundColor(Color.parseColor("#3b3b3b"));
         rbGroup.clearCheck();
 
         if (questionCounter < questionCountTotal){
@@ -103,7 +154,7 @@ public class QuizActivity extends AppCompatActivity {
             rb3.setText(currentQuestion.getOption3());
 
             questionCounter++;
-            textViewQuestionCount.setText("Question: " + questionCounter + "/" + questionCountTotal);
+            textViewQuestionCount.setText("Question " + questionCounter + " of " + questionCountTotal);
             answered = false;
             buttonConfirmNext.setText("Confirm");
 
@@ -163,23 +214,32 @@ public class QuizActivity extends AppCompatActivity {
     }
 
     private void showSolution(){
-        rb1.setTextColor(Color.RED);
-        rb2.setTextColor(Color.RED);
-        rb3.setTextColor(Color.RED);
+        RadioButton rbSelected = findViewById(rbGroup.getCheckedRadioButtonId());
+//        rb1.setBackgroundColor(Color.parseColor("#E81616"));
+//        rb2.setBackgroundColor(Color.parseColor("#E81616"));
+//        rb3.setBackgroundColor(Color.parseColor("#E81616"));
+//        text.setText(currentQuestion.getExplain());
 
         switch(currentQuestion.getAnswerNr()){
             case 1:
-                rb1.setTextColor(Color.GREEN);
-                textViewQuestion.setText("A is correct!");
+                rbSelected.setBackgroundColor(Color.parseColor("#E81616"));
+                rb1.setBackgroundColor(Color.parseColor("#7CCF4E"));
+
+                Toast.makeText(this, "The correct answer is A", Toast.LENGTH_SHORT).show();
                 break;
             case 2:
-                rb2.setTextColor(Color.GREEN);
-                textViewQuestion.setText("B is correct!");
+                rbSelected.setBackgroundColor(Color.parseColor("#E81616"));
+                rb2.setBackgroundColor(Color.parseColor("#7CCF4E"));
+//                textViewQuestion.setText("B is correct!");
+                Toast.makeText(this, "The correct answer is B", Toast.LENGTH_SHORT).show();
                 break;
             case 3:
-                rb3.setTextColor(Color.GREEN);
-                textViewQuestion.setText("C is correct!");
+                rbSelected.setBackgroundColor(Color.parseColor("#E81616"));
+                rb3.setBackgroundColor(Color.parseColor("#7CCF4E"));
+//                textViewQuestion.setText("C is correct!");
+                Toast.makeText(this, "The correct answer is C", Toast.LENGTH_SHORT).show();
                 break;
+
         }
         if (questionCounter < questionCountTotal){
             buttonConfirmNext.setText("Next");
@@ -213,4 +273,6 @@ public class QuizActivity extends AppCompatActivity {
             countDownTimer.cancel();
         }
     }
+
+
 }
