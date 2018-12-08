@@ -1,14 +1,20 @@
 package com.roadbooks.project;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.TextView;
 
 public class Grades extends AppCompatActivity {
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,5 +45,27 @@ public class Grades extends AppCompatActivity {
                 return false;
             }
         });
+
+
     }
+
+    public void onClick5 (View v){
+        Intent i = null, chooser = null;
+        if(v.getId() == R.id.textView3){
+            i = new Intent( Grades.this, gques.class);
+            Grades.this.startActivity(i);
+        }
+
+        if(v.getId() == R.id.textView8){
+            i = new Intent( Grades.this, gquesr.class);
+            Grades.this.startActivity(i);
+        }
+
+        if(v.getId() == R.id.textView11){
+            i = new Intent( Grades.this, gquesp.class);
+            Grades.this.startActivity(i);
+        }
+
+    }
+
 }

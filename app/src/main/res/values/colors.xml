@@ -11,6 +11,10 @@
     <color name="transparent">#80ffffff</color>
     <color name="darkYellow">#FFFF00</color>
     <color name="quizColor">#F1CD13</color>
+    <color name="green">#7CCF4E</color>
+    <color name="red">#F84545</color>
+    <color name="grayborder">#707070</color>
+    <color name="yellow">#D1BA3E</color>
 
 
 </resources>

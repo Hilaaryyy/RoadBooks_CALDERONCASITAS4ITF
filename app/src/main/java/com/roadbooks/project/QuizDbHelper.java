@@ -331,7 +331,8 @@ public class QuizDbHelper extends SQLiteOpenHelper {
         Question q2 = new Question("When parking uphill and parallel to a sidewalk or curb, you should turn the wheel:", "A. parallel with the sidewalk curb" ,
                 "B. away from the sidewalk curb", "C. to the sidewalk curb", 2);
         parkingaddQuestion(q2);
-        Question q3 = new Question("The vehicle is parked if:", "A. the vehicle is stationary and remains inactive in a place for an appreciable period of time", "B. The vehicle is not moving while loading passengers in", "C. The vehicle is not moving while unloading passengers", 1);
+        Question q3 = new Question("The vehicle is parked if:",
+                "A. the vehicle is stationary and remains inactive in a place for an appreciable period of time", "B. The vehicle is not moving while loading passengers in", "C. The vehicle is not moving while unloading passengers", 1);
         parkingaddQuestion(q3);
         Question q4 = new Question("In which place can't you park your vehicle? ", "A. In a given parking space", "B. In a place where pedestrians cross", "C. In a place where you want to go to", 2);
         parkingaddQuestion(q4);
