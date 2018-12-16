@@ -325,7 +325,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="40dp"
                     android:layout_weight="0"
-                    android:text="12/16/18"
+                    android:text="12/17/18"
                     android:textColor="@color/textBlack"
                     app:fontFamily="@font/raleway" />
             </LinearLayout>
