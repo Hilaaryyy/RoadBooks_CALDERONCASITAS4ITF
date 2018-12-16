@@ -146,13 +146,16 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:text="What should you do before leaving the parking space?"
-                    android:textColor="@color/textBlack" />
+                    android:textColor="@color/textBlack"
+                    app:fontFamily="@font/raleway" />
 
                 <View
                     android:id="@+id/view33"
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
+                    android:layout_marginLeft="10dp"
                     android:layout_marginTop="3dp"
+                    android:layout_marginRight="10dp"
                     android:background="@color/grayborder" />
 
                 <LinearLayout
@@ -175,7 +178,8 @@
                         android:layout_weight="0"
                         android:text="C. Look around first"
                         android:textColor="@color/textBlack"
-                        android:textStyle="bold" />
+                        android:textStyle="bold"
+                        app:fontFamily="@font/roboto_mono_bold" />
                 </LinearLayout>
 
                 <TextView
@@ -185,7 +189,8 @@
                     android:layout_marginTop="3dp"
                     android:gravity="center"
                     android:text="Before leaving a parking space make sure to look around to see if there are any approaching vehicles, or pedestrians or cyclists are overtaking you."
-                    android:textColor="@color/textBlack" />
+                    android:textColor="@color/textBlack"
+                    app:fontFamily="@font/raleway" />
             </LinearLayout>
 
             <LinearLayout
@@ -214,13 +219,16 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:text="When parking uphill and parallel to a sidewalk or curb, you should turn the wheel:"
-                    android:textColor="@color/textBlack" />
+                    android:textColor="@color/textBlack"
+                    app:fontFamily="@font/raleway" />
 
                 <View
                     android:id="@+id/view58"
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
+                    android:layout_marginLeft="10dp"
                     android:layout_marginTop="3dp"
+                    android:layout_marginRight="10dp"
                     android:background="@color/grayborder" />
 
                 <LinearLayout
@@ -243,7 +251,8 @@
                         android:layout_weight="0"
                         android:text="B. away from the sidewalk curb"
                         android:textColor="@color/textBlack"
-                        android:textStyle="bold" />
+                        android:textStyle="bold"
+                        app:fontFamily="@font/roboto_mono_bold" />
                 </LinearLayout>
 
                 <TextView
@@ -253,7 +262,8 @@
                     android:layout_marginTop="3dp"
                     android:gravity="center"
                     android:text="Always turn wheels away from the sidewalk curb when parking uphill and parallel to the sidewalk. The wheel should gently touch the curb. The curb will help to stop the vehicle from rolling further especially incase your parking brakes fail."
-                    android:textColor="@color/textBlack" />
+                    android:textColor="@color/textBlack"
+                    app:fontFamily="@font/raleway" />
             </LinearLayout>
 
             <LinearLayout
@@ -282,13 +292,16 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:text="The vehicle is parked if:"
-                    android:textColor="@color/textBlack" />
+                    android:textColor="@color/textBlack"
+                    app:fontFamily="@font/raleway" />
 
                 <View
                     android:id="@+id/view59"
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
+                    android:layout_marginLeft="10dp"
                     android:layout_marginTop="3dp"
+                    android:layout_marginRight="10dp"
                     android:background="@color/grayborder" />
 
                 <LinearLayout
@@ -311,7 +324,8 @@
                         android:layout_weight="0"
                         android:text="A. the vehicle is stationary and remains inactive in a place for an appreciable period of time"
                         android:textColor="@color/textBlack"
-                        android:textStyle="bold" />
+                        android:textStyle="bold"
+                        app:fontFamily="@font/roboto_mono_bold" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -336,7 +350,8 @@
                         android:layout_marginLeft="0dp"
                         android:layout_weight="0"
                         android:text="B. In a place where pedestrians cross"
-                        android:textColor="@color/textBlack" />
+                        android:textColor="@color/textBlack"
+                        app:fontFamily="@font/roboto_mono_bold" />
                 </LinearLayout>
 
                 <TextView
@@ -346,7 +361,8 @@
                     android:layout_marginTop="3dp"
                     android:gravity="center"
                     android:text="You might mistake a passenger loading and unloading vehicle for a parked one. This could be dangerous especially when making a turn in front of them. If unsure you can blow your horn and cautiously make the turn."
-                    android:textColor="@color/textBlack" />
+                    android:textColor="@color/textBlack"
+                    app:fontFamily="@font/raleway" />
             </LinearLayout>
 
             <LinearLayout
@@ -375,13 +391,16 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:text="In which place can't you park your vehicle?"
-                    android:textColor="@color/textBlack" />
+                    android:textColor="@color/textBlack"
+                    app:fontFamily="@font/raleway" />
 
                 <View
                     android:id="@+id/view51"
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
+                    android:layout_marginLeft="10dp"
                     android:layout_marginTop="3dp"
+                    android:layout_marginRight="10dp"
                     android:background="@color/grayborder" />
 
                 <LinearLayout
@@ -404,7 +423,8 @@
                         android:layout_weight="0"
                         android:text="B. In a place where pedestrians cross"
                         android:textColor="@color/textBlack"
-                        android:textStyle="bold" />
+                        android:textStyle="bold"
+                        app:fontFamily="@font/roboto_mono_bold" />
                 </LinearLayout>
 
                 <TextView
@@ -414,7 +434,8 @@
                     android:layout_marginTop="3dp"
                     android:gravity="center"
                     android:text="There are many places where you could park your vehicle, but a pedestrian lane is not one of them. Always keep pedestrian lanes open."
-                    android:textColor="@color/textBlack" />
+                    android:textColor="@color/textBlack"
+                    app:fontFamily="@font/raleway" />
             </LinearLayout>
 
             <LinearLayout
@@ -443,13 +464,16 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:text="What light shall be used when vehicles are parked on the highway at night?"
-                    android:textColor="@color/textBlack" />
+                    android:textColor="@color/textBlack"
+                    app:fontFamily="@font/raleway" />
 
                 <View
                     android:id="@+id/view54"
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
+                    android:layout_marginLeft="10dp"
                     android:layout_marginTop="3dp"
+                    android:layout_marginRight="10dp"
                     android:background="@color/grayborder" />
 
                 <LinearLayout
@@ -472,7 +496,8 @@
                         android:layout_weight="0"
                         android:text="B. Parking lights or lower-beam headlights"
                         android:textColor="@color/textBlack"
-                        android:textStyle="bold" />
+                        android:textStyle="bold"
+                        app:fontFamily="@font/roboto_mono_bold" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -497,7 +522,8 @@
                         android:layout_marginLeft="0dp"
                         android:layout_weight="0"
                         android:text="A. Headlight"
-                        android:textColor="@color/textBlack" />
+                        android:textColor="@color/textBlack"
+                        app:fontFamily="@font/roboto_mono_bold" />
                 </LinearLayout>
 
                 <TextView
@@ -536,13 +562,16 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:text="Parking lights may be used:"
-                    android:textColor="@color/textBlack" />
+                    android:textColor="@color/textBlack"
+                    app:fontFamily="@font/raleway" />
 
                 <View
                     android:id="@+id/view56"
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
+                    android:layout_marginLeft="10dp"
                     android:layout_marginTop="3dp"
+                    android:layout_marginRight="10dp"
                     android:background="@color/grayborder" />
 
                 <LinearLayout
@@ -575,7 +604,8 @@
                     android:layout_marginTop="3dp"
                     android:gravity="center"
                     android:text="Parking lights should always be used when parking in a situation where it might be difficult for other road users to see you, and hazardous for them to not be able to see you."
-                    android:textColor="@color/textBlack" />
+                    android:textColor="@color/textBlack"
+                    app:fontFamily="@font/raleway" />
             </LinearLayout>
 
             <LinearLayout
@@ -604,13 +634,16 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:text="When parking downhill, you should turn your front wheels:"
-                    android:textColor="@color/textBlack" />
+                    android:textColor="@color/textBlack"
+                    app:fontFamily="@font/raleway" />
 
                 <View
                     android:id="@+id/bb"
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
+                    android:layout_marginLeft="10dp"
                     android:layout_marginTop="3dp"
+                    android:layout_marginRight="10dp"
                     android:background="@color/grayborder" />
 
                 <LinearLayout
@@ -633,7 +666,8 @@
                         android:layout_weight="0"
                         android:text="A. toward the curb of the sidewalk"
                         android:textColor="@color/textBlack"
-                        android:textStyle="bold" />
+                        android:textStyle="bold"
+                        app:fontFamily="@font/roboto_mono_bold" />
                 </LinearLayout>
 
                 <TextView
@@ -642,7 +676,8 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:text="When parking downhill always turn wheels away from the sidewalk curb. The wheel should gently touch the curb. The curb will help to stop the vehicle from rolling forward especially in case your parking brakes fail."
-                    android:textColor="@color/textBlack" />
+                    android:textColor="@color/textBlack"
+                    app:fontFamily="@font/raleway" />
 
             </LinearLayout>
 
@@ -678,13 +713,17 @@
                     android:id="@+id/g"
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
+                    android:layout_marginLeft="10dp"
                     android:layout_marginTop="3dp"
+                    android:layout_marginRight="10dp"
                     android:background="@color/grayborder" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
                     android:layout_marginTop="3dp"
+                    android:layout_marginRight="10dp"
                     android:orientation="horizontal">
 
                     <ImageView
@@ -701,7 +740,8 @@
                         android:layout_weight="0"
                         android:text="B. Turn front wheels away from the curb"
                         android:textColor="@color/textBlack"
-                        android:textStyle="bold" />
+                        android:textStyle="bold"
+                        app:fontFamily="@font/roboto_mono_bold" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -726,7 +766,8 @@
                         android:layout_marginLeft="0dp"
                         android:layout_weight="0"
                         android:text="C. Make your front wheels parallel curb"
-                        android:textColor="@color/textBlack" />
+                        android:textColor="@color/textBlack"
+                        app:fontFamily="@font/roboto_mono_bold" />
                 </LinearLayout>
 
                 <TextView
@@ -736,7 +777,8 @@
                     android:layout_marginTop="3dp"
                     android:gravity="center"
                     android:text="Always turn your wheels away from the sidewalk curb when parking uphill and parallel to the sidewalk. The wheel should gently touch the curb. The curb will help to stop the vehicle from rolling backwards especially in case your parking brakes fail."
-                    android:textColor="@color/textBlack" />
+                    android:textColor="@color/textBlack"
+                    app:fontFamily="@font/raleway" />
             </LinearLayout>
 
             <LinearLayout
@@ -765,13 +807,16 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:text="Before moving your car from a parked position, you should:"
-                    android:textColor="@color/textBlack" />
+                    android:textColor="@color/textBlack"
+                    app:fontFamily="@font/raleway" />
 
                 <View
                     android:id="@+id/m"
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
+                    android:layout_marginLeft="10dp"
                     android:layout_marginTop="3dp"
+                    android:layout_marginRight="10dp"
                     android:background="@color/grayborder" />
 
                 <LinearLayout
@@ -795,7 +840,8 @@
                         android:layout_weight="0"
                         android:text="A. check other traffic, signal and pull from curb when it is safe to do so "
                         android:textColor="@color/textBlack"
-                        android:textStyle="bold" />
+                        android:textStyle="bold"
+                        app:fontFamily="@font/roboto_mono_bold" />
                 </LinearLayout>
 
                 <TextView
@@ -805,7 +851,8 @@
                     android:layout_marginTop="3dp"
                     android:gravity="center"
                     android:text="Never ovartake in an intersection, and at the foot or while climbing a bridge or a skyway because this is extremely dangerous."
-                    android:textColor="@color/textBlack" />
+                    android:textColor="@color/textBlack"
+                    app:fontFamily="@font/raleway" />
             </LinearLayout>
 
             <LinearLayout
@@ -834,13 +881,16 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:text="A driver may load and unload passengers:"
-                    android:textColor="@color/textBlack" />
+                    android:textColor="@color/textBlack"
+                    app:fontFamily="@font/raleway" />
 
                 <View
                     android:id="@+id/view5"
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
+                    android:layout_marginLeft="10dp"
                     android:layout_marginTop="3dp"
+                    android:layout_marginRight="10dp"
                     android:background="@color/grayborder" />
 
                 <LinearLayout
@@ -863,7 +913,8 @@
                         android:layout_weight="0"
                         android:text="C. only at designated stops"
                         android:textColor="@color/textBlack"
-                        android:textStyle="bold" />
+                        android:textStyle="bold"
+                        app:fontFamily="@font/roboto_mono_bold" />
                 </LinearLayout>
 
                 <TextView
@@ -873,7 +924,8 @@
                     android:layout_marginTop="3dp"
                     android:gravity="center"
                     android:text="Here in the Philippines it has been the habit of motorists to load an unload passengers at the rightmost side of the road even though it's illegal a lot of times. It's best to load or unload on designated stops so you don't obstruct other road users behind you."
-                    android:textColor="@color/textBlack" />
+                    android:textColor="@color/textBlack"
+                    app:fontFamily="@font/raleway" />
             </LinearLayout>
         </LinearLayout>
     </ScrollView>

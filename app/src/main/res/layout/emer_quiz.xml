@@ -94,6 +94,7 @@
         android:textColor="@android:color/black"
         android:textSize="12sp"
         android:textStyle="bold"
+        android:visibility="invisible"
         app:layout_constraintBottom_toTopOf="@+id/view4"
         app:layout_constraintEnd_toStartOf="@+id/text_view_countdown"
         app:layout_constraintHorizontal_bias="0.0"
@@ -111,6 +112,7 @@
         android:textColor="@android:color/black"
         android:textSize="12sp"
         android:textStyle="bold"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="@+id/text_view_score"
         app:layout_constraintEnd_toEndOf="@+id/view3"
         app:layout_constraintTop_toTopOf="@+id/text_view_score" />

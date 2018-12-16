@@ -19,18 +19,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/signs" />
 
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/recylcerView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_above="@+id/bottom_navigation"
-        android:layout_below="@+id/title2"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_marginStart="0dp"
-        android:layout_marginLeft="0dp"
-        android:layout_marginTop="0dp" />
-
     <android.support.design.widget.BottomNavigationView
         android:id="@+id/bottom_navigation"
         android:layout_width="wrap_content"
@@ -41,7 +29,115 @@
         app:itemIconTint="@color/nav_item_color"
         app:itemTextColor="@color/nav_item_color"
         app:menu="@menu/bottom_navigation"
-        android:layout_alignParentLeft="true">
+        android:layout_alignParentLeft="true"/>
 
-    </android.support.design.widget.BottomNavigationView>
+    <View
+        android:id="@+id/view9"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_navigation"
+        android:layout_below="@+id/title2"
+        android:layout_alignParentStart="true"
+        android:background="@color/background" />
+
+    <View
+        android:id="@+id/view12"
+        android:layout_width="wrap_content"
+        android:layout_height="29dp"
+        android:layout_alignTop="@+id/view9"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@color/quizColor" />
+
+    <View
+        android:id="@+id/view16"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@+id/view12"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="5dp"
+        android:background="@color/textWhite" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/view12"
+        android:layout_alignBottom="@+id/view12"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="Road Warning Signs"
+        android:textColor="@color/textBlack"
+        android:textStyle="bold"
+        app:fontFamily="serif" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignStart="@+id/view16"
+        android:layout_alignLeft="@+id/view16"
+        android:layout_alignTop="@+id/view16"
+        android:layout_alignEnd="@+id/view16"
+        android:layout_alignRight="@+id/view16"
+        android:layout_alignBottom="@+id/view16"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="-2dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:text="Warning signs let you know that road changes are coming up on  your drive. These can be permanent or temporary traffic hazards and obstacles."
+        android:textColor="@color/textBlack"
+        android:textSize="12sp"
+        app:fontFamily="@font/raleway" />
+
+    <View
+        android:id="@+id/view13"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_alignBottom="@+id/view9"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@android:color/white" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignTop="@+id/view13"
+        android:layout_alignBottom="@+id/view13"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/yellow_button"
+        android:onClick="menu"
+        android:text="MENU" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recylcerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/button"
+        android:layout_below="@+id/textView17"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@android:color/white" />
+
+
 </RelativeLayout>

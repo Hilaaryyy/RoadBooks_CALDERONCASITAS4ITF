@@ -139,6 +139,8 @@ public class HandlingQuizActivity extends AppCompatActivity {
             }
         });
     }
+
+    //finish na
     private void showNextQuestion(){
         rb1.setBackgroundColor(Color.parseColor("#3b3b3b"));
         rb2.setBackgroundColor(Color.parseColor("#3b3b3b"));

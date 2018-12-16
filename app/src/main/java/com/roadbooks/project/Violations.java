@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.MenuItem;
+import android.view.View;
 
 import com.android.volley.Request;
 import com.android.volley.Response;
@@ -122,6 +123,15 @@ public class Violations extends AppCompatActivity{
 
         //adding our stringrequest to queue
         Volley.newRequestQueue(this).add(stringRequest);
+    }
+
+    public void menu (View v){
+        Intent i = null, chooser = null;
+        if(v.getId() == R.id.button){
+            i = new Intent( Violations.this, Review.class);
+            Violations.this.startActivity(i);
+        }
+
     }
 }
 

@@ -88,12 +88,11 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="68dp"
         android:layout_marginLeft="68dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
         android:text="Score: 0"
         android:textColor="@android:color/black"
         android:textSize="12sp"
         android:textStyle="bold"
+        android:visibility="invisible"
         app:layout_constraintBottom_toTopOf="@+id/view4"
         app:layout_constraintEnd_toStartOf="@+id/text_view_countdown"
         app:layout_constraintHorizontal_bias="0.0"
@@ -111,6 +110,7 @@
         android:textColor="@android:color/black"
         android:textSize="12sp"
         android:textStyle="bold"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="@+id/text_view_score"
         app:layout_constraintEnd_toEndOf="@+id/view3"
         app:layout_constraintTop_toTopOf="@+id/text_view_score" />
@@ -120,16 +120,17 @@
         android:id="@+id/text_view_question"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="2dp"
         android:layout_marginBottom="8dp"
         android:text="Here will be the question text\nHere will be the question text\nHere will be the question text"
         android:textAlignment="center"
         android:textColor="@android:color/black"
         android:textSize="12sp"
+        app:fontFamily="@font/raleway"
         app:layout_constraintBottom_toBottomOf="@+id/view3"
         app:layout_constraintEnd_toEndOf="@+id/view3"
         app:layout_constraintStart_toStartOf="@+id/view3"
-        app:layout_constraintTop_toBottomOf="@+id/text_view_score" />
+        app:layout_constraintTop_toBottomOf="@+id/view4" />
 
     <RadioGroup
         android:id="@+id/radio_group"

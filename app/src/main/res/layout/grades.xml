@@ -166,7 +166,8 @@
                     android:layout_marginLeft="15dp"
                     android:layout_weight="0"
                     android:text="1"
-                    android:textColor="@color/textBlack" />
+                    android:textColor="@color/textBlack"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/textView3"
@@ -176,7 +177,8 @@
                     android:layout_weight="0"
                     android:onClick="onClick5"
                     android:text="@string/signs"
-                    android:textColor="@color/textBlack" />
+                    android:textColor="@color/textBlack"
+                    app:fontFamily="@font/raleway" />
 
                 <TextView
                     android:id="@+id/textView4"
@@ -200,7 +202,8 @@
                     android:layout_marginLeft="40dp"
                     android:layout_weight="0"
                     android:text="12/07/18"
-                    android:textColor="@color/textBlack" />
+                    android:textColor="@color/textBlack"
+                    app:fontFamily="@font/raleway" />
             </LinearLayout>
 
             <View
@@ -225,7 +228,8 @@
                     android:layout_marginLeft="15dp"
                     android:layout_weight="0"
                     android:text="2"
-                    android:textColor="@color/textBlack" />
+                    android:textColor="@color/textBlack"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/textView8"
@@ -235,7 +239,8 @@
                     android:layout_weight="0"
                     android:onClick="onClick5"
                     android:text="@string/positions"
-                    android:textColor="@color/textBlack" />
+                    android:textColor="@color/textBlack"
+                    app:fontFamily="@font/raleway" />
 
                 <TextView
                     android:id="@+id/textView9"
@@ -259,7 +264,8 @@
                     android:layout_marginLeft="40dp"
                     android:layout_weight="0"
                     android:text="12/07/18"
-                    android:textColor="@color/textBlack" />
+                    android:textColor="@color/textBlack"
+                    app:fontFamily="@font/raleway" />
             </LinearLayout>
 
             <View
@@ -284,7 +290,8 @@
                     android:layout_marginLeft="15dp"
                     android:layout_weight="0"
                     android:text="3"
-                    android:textColor="@color/textBlack" />
+                    android:textColor="@color/textBlack"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/textView11"
@@ -294,7 +301,8 @@
                     android:layout_weight="0"
                     android:onClick="onClick5"
                     android:text="@string/parking"
-                    android:textColor="@color/textBlack" />
+                    android:textColor="@color/textBlack"
+                    app:fontFamily="@font/raleway" />
 
                 <TextView
                     android:id="@+id/textView12"
@@ -317,8 +325,9 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="40dp"
                     android:layout_weight="0"
-                    android:text="12/12/18"
-                    android:textColor="@color/textBlack" />
+                    android:text="12/16/18"
+                    android:textColor="@color/textBlack"
+                    app:fontFamily="@font/raleway" />
             </LinearLayout>
 
             <View

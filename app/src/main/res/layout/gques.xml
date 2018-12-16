@@ -154,7 +154,9 @@
                     android:id="@+id/view33"
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
+                    android:layout_marginLeft="10dp"
                     android:layout_marginTop="3dp"
+                    android:layout_marginRight="10dp"
                     android:background="@color/grayborder" />
 
                 <LinearLayout
@@ -222,7 +224,9 @@
                     android:id="@+id/view58"
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
+                    android:layout_marginLeft="10dp"
                     android:layout_marginTop="3dp"
+                    android:layout_marginRight="10dp"
                     android:background="@color/grayborder" />
 
                 <LinearLayout
@@ -290,7 +294,9 @@
                     android:id="@+id/view59"
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
+                    android:layout_marginLeft="10dp"
                     android:layout_marginTop="3dp"
+                    android:layout_marginRight="10dp"
                     android:background="@color/grayborder" />
 
                 <LinearLayout
@@ -358,7 +364,9 @@
                     android:id="@+id/view51"
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
+                    android:layout_marginLeft="10dp"
                     android:layout_marginTop="3dp"
+                    android:layout_marginRight="10dp"
                     android:background="@color/grayborder" />
 
                 <LinearLayout
@@ -427,7 +435,9 @@
                     android:id="@+id/view54"
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
+                    android:layout_marginLeft="10dp"
                     android:layout_marginTop="3dp"
+                    android:layout_marginRight="10dp"
                     android:background="@color/grayborder" />
 
                 <LinearLayout
@@ -495,7 +505,9 @@
                     android:id="@+id/view56"
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
+                    android:layout_marginLeft="10dp"
                     android:layout_marginTop="3dp"
+                    android:layout_marginRight="10dp"
                     android:background="@color/grayborder" />
 
                 <LinearLayout
@@ -563,7 +575,9 @@
                     android:id="@+id/bb"
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
+                    android:layout_marginLeft="10dp"
                     android:layout_marginTop="3dp"
+                    android:layout_marginRight="10dp"
                     android:background="@color/grayborder" />
 
                 <LinearLayout
@@ -656,7 +670,9 @@
                     android:id="@+id/g"
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
+                    android:layout_marginLeft="10dp"
                     android:layout_marginTop="3dp"
+                    android:layout_marginRight="10dp"
                     android:background="@color/grayborder" />
 
                 <LinearLayout
@@ -724,7 +740,9 @@
                     android:id="@+id/m"
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
+                    android:layout_marginLeft="10dp"
                     android:layout_marginTop="3dp"
+                    android:layout_marginRight="10dp"
                     android:background="@color/grayborder" />
 
                 <LinearLayout
@@ -792,7 +810,9 @@
                     android:id="@+id/view5"
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
+                    android:layout_marginLeft="10dp"
                     android:layout_marginTop="3dp"
+                    android:layout_marginRight="10dp"
                     android:background="@color/grayborder" />
 
                 <LinearLayout

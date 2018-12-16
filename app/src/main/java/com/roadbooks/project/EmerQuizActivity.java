@@ -117,6 +117,7 @@ public class EmerQuizActivity extends AppCompatActivity {
             }
         });
 
+
         rbGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(RadioGroup group, int checkedId) {
